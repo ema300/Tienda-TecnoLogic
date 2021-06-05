@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    color: #000000;
+}
+.bg-light {
+    background-color: #000000!important;
+}
+.navbar-brr {
+   
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    
+    text-decoration: none;
+}
+.navbar-light .navbar-brand {
+    color: #ced4da;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ced4da;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #dae0e5;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #28a745;
+}
+a:hover{
+    color: rgb(8, 8, 8);
+    background-color: #ff0606;
+    text-decoration: none;
+}
+
+
+
